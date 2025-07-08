@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-inner" role="banner">
+            <div class="logo">
+                <a>Mohammad Asif</a>
+            </div>
+            <nav role="navigation" aria-label="Primary Navigation">
+                <a href="#hero-section">Home</a>
+                <a href="#about-section">About</a>
+                <a href="#resume-section">Resume</a>
+                <a href="#skills-section">Skills</a>
+                <a href="#project-section">Projects</a>
+                <a href="#contact-section">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- hero-section  -->
+    <section id="hero-section" class="hero-section">
+        <div class="hero">
+            <div class="hero-content">
+                <p class="name">Hi, I'm MOHAMMAD ASIF</p>
+                <P class="quote">I’m a passionate full-stack web developer with a knack for clean code, smooth UX,
+                    modern design and
+                    user-friendly websites</P>
+                <p class="sub-quote">Let's build something amazing together.</p>
+                <button popovertarget="modal">Explore CV</button>
+            </div>
+            <div class="hero-img">
+                <img src="./assets/banner-img2.png" alt="">
+            </div>
+        </div>
+    </section>
+    <div popover id="modal" class="modal">
+        <button class="close" popovertarget="modal" popovertargetaction="hide">&cross;</button>
+        <p>Thank you for visiting our website! <br> We truly appreciate your time and interest. Feel free to reach out
+            with any questions—we’re always happy to connect and help.</p>
+        <a href="./assets/mohamamd_asif_CV.txt" download="">
+
+            <button popovertarget="modal" popovertargetaction="hide" onclick="alert('CV Downloaded')"
+                href="./assets/mohamamd_asif_CV.txt" download>Download CV
+                Now</button>
+        </a>
+    </div>
+
+    <!-- about-section  -->
+    <section id="about-section" class="about-section resume-section">
+        <div class="section-header">
+            <p></p>
+            <p>about</p>
+        </div>
+        <div class="about">
+            <div class="about-img">
+                <img src="./assets/banner-img2.png" alt="">
+            </div>
+            <div class="about-content">
+                <p>
+                    <span>
+                        <span style="display: inline; color:#8c6fff;font-size: 25px;">Hello! I'm</span> Mohammad Asif
+                        Hasnain,
+                    </span>
+                </p>
+                <p style="text-indent: 20px;">I’m a passionate Web and Python Developer focused on building fast,
+                    accessible, and scalable web applications. With
+                    expertise in JavaScript, React, TypeScript, Python, Flask, and Django, I transform complex problems
+                    into clean,
+                    user-friendly solutions. I value thoughtful design, clean code, and continuous learning. Currently,
+                    I’m building
+                    scalable systems, contributing to open-source, and collaborating on meaningful tech that makes an
+                    impact.</p>
+                <p>
+                    Let's connect—I’m always excited to collaborate on meaningful tech that makes a difference
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- my resume  -->
+    <section id="resume-section" class="resume-section">
+        <div class="section-header">
+            <p>Explore</p>
+            <p>My Resume</p>
+        </div>
+
+        <div class="resume-body">
+            <div class="education">
+                <h1 class="title">Education</h1>
+                <div class="education-card">
+                    <span class="date">Aug 2022 to Present</span>
+                    <div>
+                        <p class="course">B.Tech in Computer Science and Engineering <span class="score">CGPA:
+                                7.81/10</span></p>
+                        <p class="institute">Aliah University</p>
+                        <p class="address">Newtown, kolkata</p>
+                        <p class="pt">Full Time</p>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <span class="date">May 2020 to Mar 2022</span>
+                    <div>
+                        <p class="course">Higher Secondary Education<span class="score">Percent: 79.6%</span></p>
+                        <p class="institute">Md Jan Higher Secondary School</p>
+                        <p class="address">Kolkata, West Bengal</p>
+                        <p class="pt">WBSCHE Board</p>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <span class="date">To Mar 2020</span>
+                    <div>
+                        <p class="course">Secondary Education<span class="score">Percent: 66.8%</span></p>
+                        <p class="institute">Alay Nabi High School</p>
+                        <p class="address">Vaishali, Bihar</p>
+                        <p class="pt">CBSE Board</p>
+                    </div>
+                </div>
+            </div>
+            <div class="experience">
+                <h1 class="title"> Experience</h1>
+                <div class="education-card">
+                    <span class="date">4 weeks - Internship</span>
+                    <div>
+                        <p class="course"> Web Development Inter at CodSoft </p>
+
+                        <ul style="padding: 5px 15px; font-weight: normal;color:gray;">
+                            <li>Gained hands-on experience in <strong>Frontend web development</strong> using HTML, CSS,
+                                and JavaScript.
+                            </li>
+                            <li> Learned to build responsive layouts and user-friendly interfaces from scratch.
+                            </li>
+                            <li> Developed a complete landing page project showcasing real-world UI components and
+                                design
+                                principles.
+                            </li>
+                            <li> Improved skills in clean coding, debugging, and designing interactive web elements.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- my skills  -->
+    <section id="skills-section" class="resume-section">
+        <div class="section-header">
+            <p>Explore</p>
+            <p>My skills</p>
+        </div>
+
+        <div class="resume-body">
+            <div class="experience grid-2">
+                <div class="education-card grid-2-item">
+                    <span class="date"><i class="bi bi-pc-display-horizontal"></i> Programming Languages</span>
+                    <div>
+                        <ul>
+                            <li>
+                                <label>C</label><br>
+                                <progress value="70" max="100"></progress>
+                            </li>
+                            <li>
+                                <label>C++</label><br>
+                                <progress value="25" max="100"></progress>
+                            </li>
+                            <li>
+                                <label>Python</label><br>
+                                <progress value="60" max="100"></progress>
+                            </li>
+                            <li>
+                                <label>Java</label><br>
+                                <progress value="20" max="100"></progress>
+                            </li>
+                            <li>
+                                <label>JavaScript</label><br>
+                                <progress value="70" max="100"></progress>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="education-card grid-2-item">
+                    <span class="date"><i class="bi bi-database"></i> Databases</span>
+                    <div>
+                        <ul>
+                            <li>
+                                <label>MySQL</label><br>
+                                <progress value="80" max="100"></progress>
+                            </li>
+                            <li>
+                                <label>MongoDB</label><br>
+                                <progress value="65" max="100"></progress>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="education-card grid-2-item">
+                    <span class="date"><i class="bi bi-globe2"></i> Frontend Development</span>
+                    <div>
+                        <ul>
+                            <li><label>HTML</label><br>
+                                <progress value="80" max="100"></progress>
+                            </li>
+                            <li><label>CSS</label><br>
+                                <progress value="75" max="100"></progress>
+                            </li>
+                            <li><label>JavaScript</label><br>
+                                <progress value="75" max="100"></progress>
+                            </li>
+                            <li><label>React / ReactJS</label><br>
+                                <progress value="80" max="100"></progress>
+                            </li>
+                            <li><label>Redux</label><br>
+                                <progress value="50" max="100"></progress>
+                            </li>
+                            <li><label>Bootstrap</label><br>
+                                <progress value="75" max="100"></progress>
+                            </li>
+                            <li><label>TailwindCSS</label><br>
+                                <progress value="90" max="100"></progress>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="education-card grid-2-item">
+                    <span class="date"><i class="bi bi-gear-fill"></i> Backend Development</span>
+                    <div>
+                        <ul>
+                            <li><label>Node.js</label><br>
+                                <progress value="50" max="100"></progress>
+                            </li>
+                            <li><label>Express.js</label><br>
+                                <progress value="80" max="100"></progress>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="education-card grid-2-item">
+                    <span class="date"><i class="bi bi-bar-chart-steps"></i> Data Structures & Algorithms (DSA)</span>
+                    <div>
+                        <ul>
+                            <li><label>DSA</label><br>
+                                <progress value="30" max="100"></progress>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="education-card grid-2-item">
+                    <span class="date"><i class="bi bi-git"></i> Version Control & Collaboration</span>
+                    <div>
+                        <ul>
+                            <li><label>Git</label><br>
+                                <progress value="50" max="100"></progress>
+                            </li>
+                            <li><label>GitHub</label><br>
+                                <progress value="70" max="100"></progress>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- project-section  -->
+    <section id="project-section" class="project-section resume-section">
+        <div class="section-header">
+            <p>Explore</p>
+            <p>My projects</p>
+        </div>
+        <div class="projects">
+
+            <!-- project-1  -->
+            <div class="project-card">
+                <div class="project-banner">
+                    <img src="https://raw.githubusercontent.com/MohammadAsif34/Secure-User-Authentication-System/refs/heads/master/Secure%20Auth%20System/public/preview.png"
+                        alt="secure auth system">
+                </div>
+                <div class="project-content">
+                    <p class="name">Secure User Authentication System</p>
+                    <!-- <p class="desc">Name</p> -->
+                    <div class="desc">
+                        <p>
+                            🔐 Secure User Authentication System – MERN Stack
+
+                            Developed a secure user authentication system using MongoDB, Express.js, React, and Node.js.
+                            Features include JWT-based
+                            login, password hashing with bcrypt, protected routes, and session management to ensure safe
+                            and seamless access control
+                            across the app.
+                        </p>
+                    </div>
+
+                    <div class="btn">
+                        <a target="_blank" href="https://github.com/MohammadAsif34/SecureAuthSystem">
+                            <button>See Details</button>
+                        </a>
+                        <a target="_blank" href="https://secureauthsystem-mohammadasif34.netlify.app/">
+                            <button>Live Preview</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- project-2  -->
+            <div class="project-card">
+                <div class="project-banner">
+                    <img src="https://raw.githubusercontent.com/MohammadAsif34/EmployeeManagementSystem/refs/heads/master/Employee%20Management%20System/public/preview.png"
+                        alt="employee management system">
+                </div>
+                <div class="project-content">
+                    <p class="name">Employee Management system</p>
+                    <div class="desc">
+                        <p>
+                            👥 Employee Management System – MERN Stack
+
+                            Built a full-featured Employee Management System using MongoDB, Express.js, React, and
+                            Node.js. Key features include
+                            employee CRUD operations, role-based access, secure authentication, and structured sections
+                            for personal, job, bank, and
+                            leave details, ensuring smooth HR operations and data integrity.
+                        </p>
+                    </div>
+                    <div class="btn">
+                        <a target="_blank" href="https://github.com/MohammadAsif34/EmployeeManagementSystem">
+                            <button>See Details</button>
+                        </a>
+                        <a target="_blank"
+                            href="https://t4.ftcdn.net/jpg/03/15/96/99/360_F_315969981_aJKdoeBzPzdnXRj1ENsBterfNdjD3aQU.jpg">
+                            <button>Live Preview</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- project-3 -->
+            <div class="project-card">
+                <div class="project-banner">
+                    <img src="https://raw.githubusercontent.com/MohammadAsif34/Workout-Web-App/refs/heads/master/Workout%20Web%20App/public/previwe.png"
+                        alt="Workout Web App">
+                </div>
+                <div class="project-content">
+                    <p class="name">Workout Web App</p>
+                    <div class="desc">
+                        <p>
+                            To create a Workout Web App where users can add their own workout plans, here’s a
+                            simple and scalable design plan.
+                        </p>
+                    </div>
+
+                    <div class="btn">
+
+                        <a target="_blank" href="https://github.com/MohammadAsif34/Workout-Web-App">
+                            <button>Live Preview</button>
+                        </a>
+
+                        <button onclick="handleHost()">Live Preview</button>
+
+                    </div>
+                </div>
+            </div>
+            <!-- project-8  -->
+            <div class="project-card">
+                <div class="project-banner">
+                    <img src="./assets/images/chatting_app.jpg" alt="">
+                </div>
+                <div class="project-content">
+                    <p class="name">E-commerce The Cake Shop</p>
+                    <!-- <p class="desc">Name</p> -->
+                    <div class="desc">
+                        <p>Cake Delight is a full-stack web application for a modern cake shop, where customers can
+                            browse cakes, customize orders,
+                            add items to cart, make online payments, and track their orders. Admins can manage products,
+                            handle orders, and view
+                            sales analytics. Built with React.js, Node.js, Express, and MongoDB, the app includes secure
+                            user authentication, image
+                            upload, and payment gateway integration.
+                        </p>
+                    </div>
+
+                    <div class="btn">
+
+                        <a>
+                            <button onclick="handleHost()">See Details</button>
+                        </a>
+                        <a target="_blank">
+                            <button onclick="handleHost()">Live Preview</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- project-1  -->
+            <div class="project-card">
+                <div class="project-banner">
+                    <img src="./assets/calc.png" alt="">
+                </div>
+                <div class="project-content">
+                    <p class="name">Basic Calculator</p>
+                    <!-- <p class="desc">Name</p> -->
+                    <div class="desc">
+                        <p>
+                            Built a basic calculator web app using HTML, CSS & JavaScript.
+                        </p>
+                    </div>
+
+                    <div class="btn">
+                        <a target="_blank" href="https://github.com/MohammadAsif34/CodSoft/tree/Calculator">
+                            <button onclick="handleHost()">See Details</button>
+                        </a>
+                        <a target="_blank" href="https://calculator-mohammadasif34.netlify.app/">
+                            <button>Live Preview</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- project-2  -->
+            <div class="project-card">
+                <div class="project-banner">
+                    <img src="./assets/landingPage.png" alt="">
+                </div>
+                <div class="project-content">
+                    <p class="name">Landing Page</p>
+                    <!-- <p class="desc">Name</p> -->
+                    <div class="desc">
+                        <p>
+                            eveloped a responsive landing page using HTML, CSS & JavaScript.Included sections like
+                            About, Products, Blogs, Testimonials, FAQ and Newsletter.
+                        </p>
+                    </div>
+                    <div id="info" popover>
+                        <button popovertarget="info" popovertargetaction="hide">&cross;</button>
+                        <p>
+                            added soon
+                        </p>
+                    </div>
+                    <div class="btn">
+
+                        <a target="_blank" href="https://github.com/MohammadAsif34/CodSoft/tree/Landing_Page">
+                            <button>See Details</button>
+                        </a>
+                        <a target="_blank" href="https://landingpage-mohammadasif34.netlify.app/">
+                            <button>Live Preview</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- project-3  -->
+
+            <!-- project-4  -->
+            <div class="project-card">
+                <div class="project-banner">
+                    <img src="./assets/to-do.png" alt="">
+                </div>
+                <div class="project-content">
+                    <p class="name">Basic To-Do Web App</p>
+                    <!-- <p class="desc">Name</p> -->
+                    <div class="desc">
+                        <p>
+                            A simple full-stack To-Do app where users can register, log in, and manage their personal
+                            tasks (add, edit, delete, mark
+                            complete).
+                        </p>
+                    </div>
+                    <div id="info" popover>
+                        <button popovertarget="info" popovertargetaction="hide">&cross;</button>
+                        <p>
+                            added soon
+                        </p>
+                    </div>
+                    <div class="btn">
+
+                        <a target="_blank" href="https://github.com/MohammadAsif34/To-do">
+                            <button>See Details</button>
+                        </a>
+
+                        <a target="_blank" href="https://to-do-chi-green.vercel.app/">
+                            <button>Live Preview</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </section>
+
+    <!-- get in touch  -->
+    <section id="contact-section" class="contact-section">
+        <div class="section-header">
+            <p>get</p>
+            <p>in touch</p>
+        </div>
+        <div class="contact">
+
+            <div class="contact-content">
+                <h1>get in touch</h1>
+                <h2>i'd like to hear from you!</h2>
+                <p>If you have any inquiries or just want to say hi, Please use the contact form.</p>
+            </div>
+            <div class="contact-form">
+                <form class="form" name="contact" netlify>
+                    <div class="form-name">
+                        <label ">First Name</label>
+                    <label " for="">Last Name</label>
+                        <input placeholder="Your First Name" type=" text">
+                        <input placeholder="Your Last Name" type=" text">
+                    </div></label>
+                    <label for="">Email </label>
+                    <input type="text">
+                    <label for="">Phone Number </label>
+                    <input type="text">
+                    <label for="">Message</label>
+                    <textarea></textarea>
+                    <button type="submit" onclick="alert('Hi, Dear \n Your response has been sent.')">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="footer">
+            <div class="about">
+                <h2>Mohammad Asif</h2>
+                <br>
+                <p>I'm a full-stack developer with a solid foundation in web technologies, passionate about building
+                    clean UIs and robust
+                    backend systems. I’ve developed real-world projects like a task manager, chat app, and role-based
+                    employee system,
+                    focusing on efficient code and great user experience.
+                </p>
+            </div>
+            <div class="links">
+                <h1>Links</h1>
+                <ul>
+                    <li>
+                        <a href="#hero-section">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about-section">About</a>
+                    </li>
+                    <li>
+                        <a href="#resume-section">Resume</a>
+                    </li>
+                    <li>
+                        <a href="#skills-section">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#project-section">Projects</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="address">
+                <h1>Contact Info.</h1>
+                <ul class="add">
+                    <li>Email: asifhasnain134@gmail.com</li>
+                    <li>Phone: +91 7250761747</li>
+                    <li>Whatsapp: +91 7250761747</li>
+                    <li>Address: Kolkata - 700007, West Bengal</li>
+                    <li>Follow On:
+                        <span><i class="bi bi-linkedin"></i></span>
+                        <span><i class="bi bi-github"></i></span>
+                        <span><i class="bi bi-twitter-x"></i></span>
+                        <span><i class="bi bi-instagram"></i></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>&copy; 2025 | All rights reserved.</p>
+            <div class="social-link">
+                <p>follow us :
+                <ul>
+                    <li><i class="bi bi-facebook"></i></li>
+                    <li><i class="bi bi-instagram"></i></li>
+                    <li><i class="bi bi-youtube"></i></li>
+                    <li><i class="bi bi-twitter-x"></i></li>
+                </ul>
+                </p>
+            </div>
+            <p>Developed By: MOHAMMAD ASIF</p>
+        </div>
+        </section>
+
+
+
+        <script src="app.js"></script>
+</body>
+
+</html>

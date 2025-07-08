@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <p>Cycle<span>X</span></p>
+    </div>
+    <nav class="nav">
+      <ul>
+        <li><a href="#about">about</a></li>
+        <li><a href="#cycle">cycles</a></li>
+        <li><a href="#blog">blogs</a></li>
+        <li><a href="#FAQs">FAQs</a></li>
+        <li><a href="#subscribe">subscribe</a></li>
+      </ul>
+    </nav>
+    <div class="auth"><button>login</button></div>
+  </header>
+
+  <!-- Hero section  -->
+  <section class="hero-section">
+    <div class="hero-content">
+
+      <h1>Ride into the Future of Cycling</h1>
+      <p>
+        Discover sleek, high-performance bicycles built for comfort, speed,
+        and sustainability. Whether you're commuting or adventuring <br>— we’ve
+        got the perfect ride for you.
+      </p>
+      <div>
+        <button>Explore Bikes</button>
+        <button>buy now</button>
+      </div>
+    </div>
+    </div>
+    <div class="hero-image">
+      <img src="./assets/canyon-lead.jpg" alt="banner img" loading="lazy" />
+    </div>
+  </section>
+
+  <!-- about section  -->
+  <section id="about" class="about-section">
+    <div class="content-head">
+      <p></p>
+      <p>About us</p>
+    </div>
+    <div class="content-div">
+      <div class="content">
+        <h1> "Where Performance Meets Passion"!</h1>
+        <p>
+          At Cyclo, we are driven by a passion for crafting exceptional cycles that elevate every ride.
+          Whether you're commuting to work, conquering rugged trails, or simply enjoying a leisurely ride around your
+          neighborhood, our bikes are designed to deliver unmatched performance, sleek style, and long-lasting
+          sustainability. We believe in empowering your journey—wherever the road takes you.
+        </p>
+      </div>
+      <div class="img"><img src="./assets/c2.png" alt="about image" loading="lazy"></div>
+    </div>
+  </section>
+
+  <!-- bicycles-section  -->
+  <section id="cycle" class="bicycles-section">
+    <div class="content-head">
+      <p>Explore</p>
+      <p>Our bicycles</p>
+    </div>
+    <div id="bicycles"> </div>
+  </section>
+
+  <!-- Product highlight  -->
+  <section class="best-seller-section">
+    <div class="content-head">
+      <p>Explore</p>
+      <p>BestSellers</p>
+    </div>
+    <div id="best-seller-container"> </div>
+  </section>
+
+
+
+  <!-- blog section -->
+  <section id="blog" class="blogs-section">
+    <div class="content-head">
+      <p>Our</p>
+      <p>Blogs</p>
+    </div>
+    <section class="blog-section">
+      <div class="blog-container">
+        <h2>From the Blog</h2>
+        <p class="blog-subtitle">Discover cycling tips, gear reviews, and riding stories from our community.</p>
+
+        <div class="blog-cards">
+          <!-- Blog Post 1 -->
+          <div class="blog-card">
+            <img src="./assets/blog/b2.png" alt="Cycling Tips" loading="lazy">
+            <div class="blog-content">
+              <h3>5 Essential Cycling Tips for Beginners</h3>
+              <p>Start your cycling journey with confidence. Learn how to ride safely and efficiently with these
+                beginner-friendly tips.</p>
+              <a href="#">Read More →</a>
+            </div>
+          </div>
+
+          <!-- Blog Post 2 -->
+          <div class="blog-card">
+            <img src="./assets/blog/b3.png" alt="Gear Review" loading="lazy">
+            <div class="blog-content">
+              <h3>Top 10 Must-Have Accessories in 2025</h3>
+              <p>From helmets to hydration packs, here are our top picks for cycling gear that enhances your ride and
+                safety.</p>
+              <a href="#">Read More →</a>
+            </div>
+          </div>
+
+          <!-- Blog Post 3 -->
+          <div class="blog-card">
+            <img src="./assets/blog/b1.png" alt="Trail Story" loading="lazy">
+            <div class="blog-content">
+              <h3>Rider Spotlight: The Himalayan Trail Ride</h3>
+              <p>Follow one rider’s epic journey through the Himalayas, full of breathtaking views and unforgettable
+                challenges.</p>
+              <a href="#">Read More →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </section>
+
+  <!-- customer testimonials -->
+  <section class="testimonial-section">
+    <div class="testimonial" style="background-image:linear-gradient(
+      to right,
+      rgba(0, 0, 0, 1),
+      rgba(255, 255, 255, 0)
+      ), url(./assets/bg-img-1.png);">
+      <div class="testimonial-head">
+        <h1>testimonials</h1>
+      </div>
+      <div class="testimonial-content">
+        <h2>"Unmatched Ride Quality!"</h2>
+        <p>He smooth ride and sturdy build exceeded my expectations. It's my go-to for daily commuting!
+        </p>
+        <p>
+          <span style="font-weight: bold;">Karthik Iyer</span> | Ahmedabad
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="FAQs" class="FAQ-section">
+    <div class="content-head">
+      <p>Frequent Asked</p>
+      <p>Questions</p>
+    </div>
+    <div id="FAQ-container"> </div>
+  </section>
+
+  <!-- newsletter section -->
+  <section id="subscribe" class="newletter-section">
+    <div class="content-head">
+      <p>subscribe</p>
+      <p>our Newsletter</p>
+    </div>
+    <div class="newsletter-container">
+      <h2>Stay in the Loop</h2>
+      <p>Subscribe to our newsletter for exclusive offers, cycling tips, and the latest product updates.</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <section class="footer-section">
+    <div class="footer-content">
+      <div class="about">
+        <h4>About Us</h4>
+        <p>
+          We’re passionate about creating cycles that empower your journey—whether you're riding to work, chasing
+          trails, or
+          exploring your neighborhood. Performance, style, and sustainability are at our core.</p>
+      </div>
+      <div class="links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a>Home</a></li>
+          <li><a>Our Cycles</a></li>
+          <li><a>About</a></li>
+          <li><a>Contact</a></li>
+          <li><a>FAQs</a></li>
+        </ul>
+      </div>
+      <div class="address">
+        <h4>Contact & Address</h4>
+        <p>
+          CycleX India Pvt. Ltd.<br />
+          123 Freedom Street, Sector 21<br />
+          Bengaluru, Karnataka - 560102<br />
+          Phone: +91 98765 43210<br />
+          Email: support@cyclex.in</p>
+      </div>
+    </div>
+    <div class="copy-right">
+      <p>&copy; 2025 | All rights reserved.</p>
+      <div class="social-link">
+        <p>follow us :
+        <ul>
+          <li><i class="bi bi-facebook"></i></li>
+          <li><i class="bi bi-instagram"></i></li>
+          <li><i class="bi bi-youtube"></i></li>
+          <li><i class="bi bi-twitter-x"></i></li>
+        </ul>
+        </p>
+      </div>
+      <p>Developed By: MOHAMMAD ASIF</p>
+    </div>
+  </section>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
