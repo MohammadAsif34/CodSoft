@@ -8,7 +8,7 @@ During my **Web Development Internship at Codesoft**, I successfully completed *
 
 **Organization:** Codesoft  
 **Role:** Web Development Intern  
-**Duration:** [Insert Duration — e.g., June 2025 - July 2025]  
+**Duration:** June 2025 - July 2025    
 **Technologies Used:** HTML, CSS, JavaScript, Git, and GitHub.
 
 ---
@@ -21,8 +21,8 @@ Developed a personal **portfolio website** to showcase my skills, projects, and 
 **Key Features:**
 - Fully responsive design using HTML, CSS, and JavaScript.  
 - Smooth scroll navigation and modern UI layout.  
-- Integrated project gallery and contact form.
-  **Preview Link** - https://calculator-mohammadasif34.netlify.app/
+- Integrated project gallery and contact form.    
+  **Preview Link** - [https://portfolio-mohammadasif34.netlify.app/](https://portfolio-mohammadasif34.netlify.app/)
 
 **Tech Stack:** HTML, CSS, JavaScript
 
@@ -34,7 +34,7 @@ Created a **responsive landing page** for a fictional product/service to enhance
 **Key Features:**
 - Eye-catching layout with animated elements.  
 - Interactive buttons and optimized call-to-action sections.  
-- Cross-browser compatibility and performance optimization.
+- Cross-browser compatibility and performance optimization.    
   **Preview Link** - [https://calculator-mohammadasif34.netlify.app/](https://landingpage-mohammadasif34.netlify.app/)
 
 **Tech Stack:** HTML, CSS, JavaScript
@@ -47,7 +47,7 @@ Built a **functional calculator** web application that performs basic arithmetic
 **Key Features:**
 - Simple and user-friendly interface.  
 - Real-time calculation display.  
-- Keyboard input support and responsive design.
+- Keyboard input support and responsive design.    
   **Preview Link** - [https://calculator-mohammadasif34.netlify.app](https://calculator-mohammadasif34.netlify.app/)
 
 **Tech Stack:** HTML, CSS, JavaScript
@@ -72,9 +72,11 @@ Successfully completed the **Web Development Internship** from **Codesoft** with
 
 ## 🔗 Connect with Me
 
-- **Portfolio:** [Your Portfolio Link]  
-- **LinkedIn:** [Your LinkedIn Profile]  
-- **GitHub:** [Your GitHub Profile]
+### Mohammad Asif Hasnain
+- **Email:** [mohammadasif34.dev@gmail.com](mohammadasif34.dev@gmail.com)  
+- **Portfolio:** [https://mohammadasifhasnain.vercel.app](https://mohammadasifhasnain.vercel.app)     
+- **LinkedIn:** [https://linkedin.com/in/mohammadasif34](https://linkedin.com/in/mohammadasif34)     
+- **GitHub:** [https://github.com/mohammadasif34](https://github.com/mohammadasif34)   
 
 ---
 
