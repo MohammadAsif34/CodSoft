@@ -9,7 +9,7 @@ During my **Web Development Internship at Codesoft**, I successfully completed *
 **Organization:** Codesoft  
 **Role:** Web Development Intern  
 **Duration:** [Insert Duration — e.g., June 2025 - July 2025]  
-**Technologies Used:** HTML, CSS, JavaScript, React.js, Node.js, Express.js, MongoDB, Git, and GitHub.
+**Technologies Used:** HTML, CSS, JavaScript, Git, and GitHub.
 
 ---
 
@@ -22,6 +22,7 @@ Developed a personal **portfolio website** to showcase my skills, projects, and 
 - Fully responsive design using HTML, CSS, and JavaScript.  
 - Smooth scroll navigation and modern UI layout.  
 - Integrated project gallery and contact form.
+  **Preview Link** - https://calculator-mohammadasif34.netlify.app/
 
 **Tech Stack:** HTML, CSS, JavaScript
 
@@ -34,6 +35,7 @@ Created a **responsive landing page** for a fictional product/service to enhance
 - Eye-catching layout with animated elements.  
 - Interactive buttons and optimized call-to-action sections.  
 - Cross-browser compatibility and performance optimization.
+  **Preview Link** - [https://calculator-mohammadasif34.netlify.app/](https://landingpage-mohammadasif34.netlify.app/)
 
 **Tech Stack:** HTML, CSS, JavaScript
 
@@ -46,6 +48,7 @@ Built a **functional calculator** web application that performs basic arithmetic
 - Simple and user-friendly interface.  
 - Real-time calculation display.  
 - Keyboard input support and responsive design.
+  **Preview Link** - [https://calculator-mohammadasif34.netlify.app](https://calculator-mohammadasif34.netlify.app/)
 
 **Tech Stack:** HTML, CSS, JavaScript
 
